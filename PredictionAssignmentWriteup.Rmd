@@ -78,4 +78,8 @@ confusionMatrix(predictionsTe,testing$classe)
 ```
 
 As seen by the result of the confusionmatrix, the model is good and efficient because it has an accuracy of 0.997 and very good sensitivity & specificity values on the testing dataset. (the lowest value is 0.992 for the sensitivity of the class C)
+
+It seems also very good because It scores 100% (20/20) on the Course Project Submission (the 20 values to predict)
+
+
 I also try to play with preprocessing generating PCA or scale & center the features but the accuracy was lower.
